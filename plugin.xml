@@ -13,6 +13,7 @@
         <source-file src="src/ios/hello.m" />
         <framework src="ZohoAuth" type="podspec" spec="" />
         <framework src="SwiftSoup" type="podspec" spec="" />
+        <framework src="ReachabilitySwift" type="podspec" spec="4.3.0" />
     </platform>
 </plugin>
 
