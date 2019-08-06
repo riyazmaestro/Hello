@@ -11,6 +11,6 @@
             </feature>
         </config-file>
         <source-file src="src/ios/hello.m" />
-        <framework src="OpenSSL" type="podspec" spec="1.0.210" />
+        <framework src="ZohoAuth" type="podspec" />
     </platform>
 </plugin>
