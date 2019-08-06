@@ -11,27 +11,27 @@
             </feature>
         </config-file>
         <source-file src="src/ios/hello.m" />
-        <framework src="ZohoAuth" type="podspec" spec="" />
-        <framework src="SwiftSoup" type="podspec" spec="" />
-        <framework src="ReachabilitySwift" type="podspec" spec="4.3.0" />
-        <framework src="SQLite.swift" type="podspec" spec="" />
-        <framework src="PromisesSwift" type="podspec" spec="~> 1.2.3" />
-
+        
+        <podspec>
+            <config>
+                <source url="https://github.com/CocoaPods/Specs.git"/>
+            </config>
+            <pods use-frameworks="true">
+                <pod name="ZohoAuth" spec="" />
+                <pod name="SwiftSoup" spec="" />
+                <pod name="ReachabilitySwift" swift-version="4.3.0" />
+                <pod name="SQLite.swift" />
+                <pod name="PromisesSwift" spec="~> 1.2.3" />
+            </pods>
+        </podspec>
     </platform>
 </plugin>
 
 <!--<framework src="ReachabilitySwift" type="podspec" spec="4.3.0" />-->
 <!--<framework src="SQLite.swift" type="podspec" spec="" />-->
 <!--<framework src="PromisesSwift" type="podspec" spec="1.2.3" />-->
-<!--<podspec>-->
-<!--    <config>-->
-<!--        <source url="https://github.com/CocoaPods/Specs.git"/>-->
-<!--    </config>-->
-<!--    <pods use-frameworks="true">-->
-<!--        <pod name="ZohoAuth" spec="" />-->
-<!--        <pod name="SwiftSoup" spec="" />-->
-<!--        <pod name="ReachabilitySwift" swift-version="4.3.0" />-->
-<!--        <pod name="SQLite.swift" />-->
-<!--        <pod name="PromisesSwift" spec="~> 1.2.3" />-->
-<!--    </pods>-->
-<!--    </podspec>-->
+<!--<framework src="ZohoAuth" type="podspec" spec="" />-->
+<!--<framework src="SwiftSoup" type="podspec" spec="" />-->
+<!--<framework src="ReachabilitySwift" type="podspec" spec="4.3.0" />-->
+<!--<framework src="SQLite.swift" type="podspec" spec="" />-->
+<!--<framework src="PromisesSwift" type="podspec" spec="~> 1.2.3" />-->
