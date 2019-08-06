@@ -15,6 +15,7 @@
         <framework src="SwiftSoup" type="podspec" spec="" />
         <framework src="ReachabilitySwift" type="podspec" spec="4.3.0" />
         <framework src="SQLite.swift" type="podspec" spec="" />
+        <framework src="PromisesSwift" type="podspec" spec="1.2.3" />
     </platform>
 </plugin>
 
